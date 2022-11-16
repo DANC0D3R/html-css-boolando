@@ -70,6 +70,80 @@ header li{
     text-align: right;
 }
 /* MAIN */
+.card{
+    width: calc(100% / 3 - 20px);
+    margin-bottom: 20px;
+}
+
+/* IMMAGINI */
+.image{
+    width: 100%;
+    position: relative;
+}
+
+.cover-photo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image:hover .cover-photo{
+    display: none;
+}
+
+/* CUORE */
+.heart{
+    padding: 10px;
+    position: absolute;
+    top: 2,5%;
+    right: 0;
+    background-color: #FFFFFF;
+}
+
+/* ETICHETTE */
+.labels{
+    position: absolute;
+    left: 0;
+    bottom: 8%;
+}
+
+.labels > *{
+    padding: 5px 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.discount{
+    background-color: #FF0000;
+}
+
+.sustainbility{
+    background-color: #008000;
+}
+
+.sustainbility::after{
+    content: 'Sostenibilità';
+}
+
+/* INFO PRODOTTO */
+.text .brand, .text .price, .text .crossed-price{
+    font-size: 0.8em;
+}
+
+.text .dress-name{
+    margin: 2px 0;
+    font-weight: bold;
+}
+
+.text .price{
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.text .crossed-price{
+    text-decoration: line-through;
+}
 
 /* FOOTER */
 
