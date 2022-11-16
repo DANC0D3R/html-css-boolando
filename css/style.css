@@ -163,5 +163,13 @@ header li{
 }
 
 /* MAIN */
+.debug main .conatiner{
+    background-color: #00f;
+}
 
+.debug .card{
+    min-height: 500px;
+    background-color: #C8FF00;
+    border: 2px dashed;
+}
 /* FOOTER */
