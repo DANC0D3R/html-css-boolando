@@ -130,6 +130,10 @@ main .container.flex{
     background-color: #FFFFFF;
 }
 
+.heart:hover{
+    color:#FF0000
+}
+
 /* ETICHETTE */
 .labels{
     position: absolute;
