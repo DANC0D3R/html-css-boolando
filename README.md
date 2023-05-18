@@ -15,3 +15,6 @@ Analizzate prima il layout solo con i commenti, poi passate ai blocchi colorati.
 
 Bonus:
 All'hover sul cuoricino, questo diventa rosso
+
+<h1 align="center">Anteprima<h1>
+<div align="center"><img src="Traccia Esercizio.png" width="800">
